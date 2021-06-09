@@ -1,4 +1,6 @@
-**_FairMOT_paddle_**(中文)
+**_FairMOT_paddle_**
+===
+**[简体中文]() | [English]()**
 ===
 
 一.工具和环境准备

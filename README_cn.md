@@ -3,7 +3,7 @@
 **[简体中文](https://github.com/ReverseSacle/FairMOT_paddle/blob/main/README_cn.md) | [English](https://github.com/ReverseSacle/FairMOT_paddle/blob/main/README_English.md)**
 ===
 
-一.工具和环境准备
+一.工具和环境准备(运行于window系统)
 ---
 * git clone "https://github.com/ReverseSacle/FairMOT_paddle.git"
 * python setup.py install

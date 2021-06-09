@@ -5,7 +5,7 @@
 ---
 * git clone "https://github.com/ReverseSacle/FairMOT_paddle.git"
 * python setup.py install
-* pip install -r requirements
+* pip install -r requirements.txt
 
 二.模型文件
 ---

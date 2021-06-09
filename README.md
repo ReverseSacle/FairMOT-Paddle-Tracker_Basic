@@ -6,8 +6,13 @@
 * git clone "https://github.com/ReverseSacle/FairMOT_paddle.git"
 * python setup.py install
 
-二.使用方法
+二.模型文件
 ---
+**下载：** [暂无]()
+
+三.使用方法
+---
+**待补**
 
 
 

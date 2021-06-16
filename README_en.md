@@ -17,7 +17,7 @@ Introduction
 + [Summary_Introduction](https://github.com/ReverseSacle/FairMOT_paddle/blob/main/docs/Introduction_cn.md)
 + [Making_Introduction](https://github.com/ReverseSacle/FairMOT_paddle/blob/main/docs/Making_Introduction_en.md)
 
-Get Model file
+Provide Model file
 ---
 **Download：** [Baidu Netdisk(Coming soon)]()
 

@@ -1,4 +1,4 @@
-from deplot.python.utils import set_thrshold,set_model_dir,set_camera_id,set_output_dir,set_video_file,set_use_device
+from deploy.python.utils import set_thrshold,set_model_dir,set_camera_id,set_output_dir,set_video_file,set_use_device
 from deploy.python.mot_infer import *
 
 #Related Params

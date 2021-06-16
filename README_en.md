@@ -9,8 +9,13 @@ Enviroment Requirement
 ---
 + python3
 + paddlepaddle==2.1.0
-+ to install requirement -> pip install -r requirentments.txt
++ to install requirement -> ```pip install -r requirentments.txt```
 + Test system -> window10
+
+Introduction
+---
++ [Summary_Introduction](https://github.com/ReverseSacle/FairMOT_paddle/blob/main/docs/Introduction_cn.md)
++ [Making_Introduction](https://github.com/ReverseSacle/FairMOT_paddle/blob/main/docs/Making_Introduction_en.md)
 
 Get Model file
 ---

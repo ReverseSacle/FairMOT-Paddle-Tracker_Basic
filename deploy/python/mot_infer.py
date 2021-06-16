@@ -18,18 +18,18 @@ import yaml
 import cv2
 import numpy as np
 import paddle
-from benchmark_utils import PaddleInferBenchmark
-from preprocess import preprocess, NormalizeImage, Permute
-from mot_preprocess import LetterBoxResize
+from .benchmark_utils import PaddleInferBenchmark
+from .preprocess import preprocess, NormalizeImage, Permute
+from .mot_preprocess import LetterBoxResize
 
-from tracker import JDETracker
+from .tracker import JDETracker
 from ppdet.modeling.mot import visualization as mot_vis
 from ppdet.modeling.mot.utils import Timer as MOTTimer
 
 from paddle.inference import Config
 from paddle.inference import create_predictor
-from utils import argsparser, Timer, get_current_memory_mb
-from infer import get_test_images, print_arguments
+from .utils import argsparser, Timer, get_current_memory_mb
+from .infer import get_test_images, print_arguments
 
 # Global dictionary
 MOT_SUPPORT_MODELS = {

@@ -1,4 +1,4 @@
-**_FairMOT_Paddle(单摄像头)**
+**FairMOT_Paddle(单摄像头)**
 ===
 [简体中文](https://github.com/ReverseSacle/FairMOT_paddle/blob/main/README.md) | [English](https://github.com/ReverseSacle/FairMOT_paddle/blob/main/README_en.md)
 

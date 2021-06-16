@@ -9,6 +9,7 @@
 ---
 + python3
 + paddlepaddle==2.1.0
++ OpenCV
 + 需要的第三方库 -> ```pip install -r requirement.txt```
 + 运行的测试平台 -> window10
 

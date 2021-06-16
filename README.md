@@ -15,7 +15,7 @@
 相关介绍
 ---
 + [概要介绍](https://github.com/ReverseSacle/FairMOT_paddle/blob/main/docs/Introduction_cn.md)
-+ [制作介绍](https://github.com/ReverseSacle/FairMOT_paddle/blob/main/docs/Introduction_en.md)
++ [制作介绍](https://github.com/ReverseSacle/FairMOT_paddle/blob/main/docs/Introduction_cn.md)
 
 需要的模型文件
 ---

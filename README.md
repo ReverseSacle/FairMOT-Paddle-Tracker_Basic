@@ -10,9 +10,12 @@
 + python3
 + paddlepaddle==2.1.0
 + 需要的第三方库 -> ```pip install -r requirement.txt```
-    
-    
 + 运行的测试平台 -> window10
+
+相关介绍
+---
++ [概要介绍](https://github.com/ReverseSacle/DeepSort_Paddle/blob/main/docs/Introduction_cn.md)
++ [制作介绍](https://github.com/ReverseSacle/DeepSort_Paddle/blob/main/docs/Making_Introduction_cn.md)
 
 需要的模型文件
 ---

@@ -21,7 +21,7 @@ Provide Model file
 ---
 **Download：** [Baidu Netdisk(Coming soon)]()
 
-To using
+Quickly strat
 ---
 **Comming**
 

@@ -1,7 +1,7 @@
 from deplot.python.utils import set_thrshold,set_model_dir,set_camera_id,set_output_dir,set_video_file,set_use_device
 from deploy.python.mot_infer import *
 
-#relate params
+#Related Params
 threshold = None
 model_dir = None
 camera_id = None
@@ -9,7 +9,7 @@ output_dir = None
 video_file = None
 use_device = None
 
-#set params
+#Set Each Params
 set_thrshold(threshold)
 set_model_dir(model_dir)
 set_camera_id(camera_id)
@@ -17,7 +17,7 @@ set_output_dir(output_dir)
 set_video_file(video_file)
 set_use_device(use_device)
 
-#start to use
+#Start to use
 paddle.enable_static()
 parser = argsparser()
 FLAGS = parser.parse_args()

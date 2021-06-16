@@ -2,16 +2,19 @@
 ===
 [简体中文](https://github.com/ReverseSacle/FairMOT_paddle/blob/main/README.md) | [English](https://github.com/ReverseSacle/FairMOT_paddle/blob/main/README_en.md)
 
-
-To prepare for tool and enviroment(Run on windows10 system)
+Preview
 ---
-* git clone "https://github.com/ReverseSacle/FairMOT_paddle.git"
-* python setup.py install
-* pip install -r requirements.txt
+
+Enviroment Requirement
+---
++ python3
++ paddlepaddle==2.1.0
++ to install requirement -> pip install -r requirentments.txt
++ Test system -> window10
 
 Get Model file
 ---
-**下载：** [Baidu Netdisk(暂无)]()
+**Download：** [Baidu Netdisk(Coming soon)]()
 
 To using
 ---
@@ -19,3 +22,4 @@ To using
 
 Author
 ---
++ first-year student at a university

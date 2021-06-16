@@ -2,12 +2,12 @@ from deplot.python.utils import set_thrshold,set_model_dir,set_camera_id,set_out
 from deploy.python.mot_infer import *
 
 #Related Params
-threshold = None  #阈
-model_dir = None  #模型参数地址
+threshold = None  #阈,默认None为0.5
+model_dir = None  #模型参数地址，默认None为'../best_mode/'
 camera_id = None  #设置摄像头，默认None为预测视频
-output_dir = None #输出地址
-video_file = None #预测的视频地址
-use_device = None #'cpu'/'gpu'
+output_dir = None #输出地址,默认None为'../output/'
+video_file = None #预测的视频地址,默认None为'../video/test.avi/'
+use_device = None #'cpu'/'gpu',默认None为'cpu'
 
 #Set each params
 set_thrshold(threshold)

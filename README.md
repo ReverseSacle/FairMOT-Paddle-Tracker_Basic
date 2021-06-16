@@ -1,4 +1,4 @@
-**_FairMOT_paddle_**
+**_FairMOT_Paddle_**
 ===
 [简体中文](https://github.com/ReverseSacle/FairMOT_paddle/blob/main/README.md) | [English](https://github.com/ReverseSacle/FairMOT_paddle/blob/main/README_English.md)
 

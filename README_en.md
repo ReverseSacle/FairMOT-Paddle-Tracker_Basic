@@ -19,7 +19,7 @@ Introduction
 
 Provide Model file
 ---
-**Download：** [Baidu Netdisk(Coming soon)]()
+**Download：** [Baidu Netdisk(Coming soon)]() -> need to put it in best_model folder
 
 Quickly strat
 ---

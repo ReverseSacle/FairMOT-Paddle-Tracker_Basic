@@ -2,6 +2,8 @@
 ===
 [简体中文](https://github.com/ReverseSacle/FairMOT_paddle/blob/main/README.md) | [English](https://github.com/ReverseSacle/FairMOT_paddle/blob/main/README_en.md)
 
+效果预览
+---
 
 环境要求
 ---

@@ -9,6 +9,7 @@ Enviroment Requirement
 ---
 + python3
 + paddlepaddle==2.1.0
++ OpenCV
 + needed requirement -> ```pip install -r requirentments.txt```
 + test system -> window10
 

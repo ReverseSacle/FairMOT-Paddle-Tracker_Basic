@@ -9,8 +9,8 @@ Enviroment Requirement
 ---
 + python3
 + paddlepaddle==2.1.0
-+ to install requirement -> ```pip install -r requirentments.txt```
-+ Test system -> window10
++ needed requirement -> ```pip install -r requirentments.txt```
++ test system -> window10
 
 Introduction
 ---

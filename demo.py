@@ -9,7 +9,7 @@ output_dir = None
 video_file = None
 use_device = None
 
-#Set Each Params
+#Set each params
 set_thrshold(threshold)
 set_model_dir(model_dir)
 set_camera_id(camera_id)
@@ -35,7 +35,7 @@ detector = MOT_Detector(
     cpu_threads=FLAGS.cpu_threads,
     enable_mkldnn=FLAGS.enable_mkldnn)
 
-# predict from video file or camera video stream
+# Predict from video file or camera video stream
 if FLAGS.video_file is not None or FLAGS.camera_id != -1:
     predict_video(detector, FLAGS.camera_id)
 else:

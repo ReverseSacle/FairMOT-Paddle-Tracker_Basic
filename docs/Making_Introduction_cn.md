@@ -8,4 +8,4 @@
 
 <img width="707" alt="FairMOT" src="https://user-images.githubusercontent.com/73418195/122189832-d73d5e80-cec3-11eb-8b32-95ef7c8ea3b1.png">
 
-[paper_adress](https://arxiv.org/pdf/2004.01888.pdf)
+[Paper_地址](https://arxiv.org/abs/2004.01888)

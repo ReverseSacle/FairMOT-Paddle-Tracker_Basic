@@ -10,8 +10,8 @@
 + python3
 + paddlepaddle==2.1.0
 + OpenCV
-+ 需要的第三方库 -> ```pip install -r requirement.txt```
-+ 运行的测试平台 -> window10
++ 需要的第三方库 -> ```python setup.py install```
++ 运行的测试平台 -> window10(目前还不行)
 
 相关介绍
 ---
@@ -20,13 +20,9 @@
 
 提供的模型文件
 ---
-+ **下载：** [百度网盘(暂无)]() ——> 默认需放置best_model下
++ **下载：** [百度网盘(暂无)]() ——> 默认需放置model文件夹下
 
 快速使用
 ---
 
-    
-Author
----
-+ 大一在读学生
-
+ 

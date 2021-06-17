@@ -8,7 +8,7 @@ Preview
 Enviroment Requirement
 ---
 + python3
-+ paddlepaddle==2.1.0
++ paddlepaddle_develop edition
 + OpenCV
 + needed requirement -> ``` python setup.py install```
 + test system -> window10

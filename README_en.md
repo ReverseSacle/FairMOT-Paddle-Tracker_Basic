@@ -10,7 +10,7 @@ Enviroment Requirement
 + python3
 + paddlepaddle==2.1.0
 + OpenCV
-+ needed requirement -> ```pip install -r requirentments.txt```
++ needed requirement -> ``` python setup.py install```
 + test system -> window10
 
 Introduction
@@ -24,8 +24,4 @@ Provide Model file
 
 Quickly strat
 ---
-**Comming**
-
-Author
----
-+ first-year student at a university
+**Comming soon**

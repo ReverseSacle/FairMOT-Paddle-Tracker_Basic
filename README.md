@@ -4,6 +4,7 @@
 
 效果预览
 ---
+![MOT20-01](https://github.com/ReverseSacle/FairMOT_Paddle/blob/main/docs/MOT20-01.gif)
 
 环境要求
 ---

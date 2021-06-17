@@ -20,7 +20,7 @@ Introduction
 
 Provide Model file
 ---
-**Download：** [Baidu Netdisk(Coming soon)]() -> need to put it in best_model folder
+**Download：** [Baidu Netdisk(Coming soon)]() -> need to put it in the model folder(root_dir)
 
 Quickly strat
 ---

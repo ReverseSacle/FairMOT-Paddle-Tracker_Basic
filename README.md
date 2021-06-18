@@ -12,7 +12,7 @@
 + paddlepaddle_develop版
 + OpenCV
 + 需要的第三方库 -> ```python setup.py install```
-+ 运行的测试平台 -> window10(目前还在测试)
++ 运行的测试平台 -> window10
 
 相关介绍
 ---

@@ -30,7 +30,7 @@
 ---
 + [->Paddle_Detection 工具](https://github.com/PaddlePaddle/PaddleDetection) -> ```git clone "https://github.com/PaddlePaddle/PaddleDetection.git" ```
 + [->准备数据集](https://github.com/PaddlePaddle/PaddleDetection/blob/release/2.1/configs/mot/README_cn.md#%E6%95%B0%E6%8D%AE%E9%9B%86%E5%87%86%E5%A4%87)
-按需要选择数据集，并非需全部下载，之后修改configs/dataset/mot.yml
+按需要选择数据集，并非需全部下载，之后修改```configs/dataset/mot.yml```
 + [->开始训练](https://github.com/PaddlePaddle/PaddleDetection/tree/release/2.1/configs/mot/fairmot)
 
 作者

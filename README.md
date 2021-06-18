@@ -25,6 +25,7 @@
 
 快速使用
 ---
++ ``` git clone "https://github.com/ReverseSacle/FairMOT_Paddle.git"```
 
 关于训练(基于paddle_detection)
 ---

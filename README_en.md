@@ -25,10 +25,11 @@ Provide Model file
 
 Quickly strat
 ---
++ ```git clone "https://github.com/ReverseSacle/FairMOT_Paddle.git"```
 
 About training
 ---
 + [->Paddle_Detection 工具](https://github.com/PaddlePaddle/PaddleDetection) -> ```git clone "https://github.com/PaddlePaddle/PaddleDetection.git" ```
-+ [->Prepare datasets](https://github.com/PaddlePaddle/PaddleDetection/blob/release/2.1/configs/mot/README_cn.md#%E6%95%B0%E6%8D%AE%E9%9B%86%E5%87%86%E5%A4%87)
++ [->Prepare datasets](https://github.com/PaddlePaddle/PaddleDetection/blob/release/2.1/configs/mot/README.md)
 Not need to download all datasets,just choose what you want.After that,modify ```configs/dataset/mot.yml```
 + [->Strat to train](https://github.com/PaddlePaddle/PaddleDetection/tree/release/2.1/configs/mot/fairmot)

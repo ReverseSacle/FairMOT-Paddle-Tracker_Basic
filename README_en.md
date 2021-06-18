@@ -25,3 +25,6 @@ Provide Model file
 
 Quickly strat
 ---
+
+About training
+---

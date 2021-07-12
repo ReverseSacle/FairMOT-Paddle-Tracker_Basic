@@ -1,4 +1,4 @@
-**FairMOT_Paddle(Single Camera)**
+**FairMOT_Paddle_Tracker(Single Camera)**
 ===
 [简体中文](https://github.com/ReverseSacle/FairMOT_paddle/blob/main/README.md) | [English](https://github.com/ReverseSacle/FairMOT_paddle/blob/main/README_en.md)
 

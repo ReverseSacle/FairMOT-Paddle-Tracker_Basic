@@ -6,14 +6,13 @@
 ---
 ![MOT20-01](https://github.com/ReverseSacle/FairMOT_Paddle/blob/main/docs/MOT20-01.gif)
 
-环境要求
+环境要求(源码要求)
 ---
 + python3
-+ paddlepaddle_develop版
 + OpenCV
-+ 需要的第三方库 -> ```python setup.py install```
++ 需要的第三方库 -> 基本为paddle_detection所需要的
 + 运行的测试平台 -> window10
-+ 已经配置好的conda环境--[paddle-env(暂无)]
++ 已经配置好的conda环境--[paddle-env(百度网盘暂无)]
 
 相关介绍
 ---
@@ -24,9 +23,19 @@
 ---
 + **下载：** [百度网盘(暂无)]() -> 默认需放置根目录的model文件夹下
 
-快速使用
+快速使用(可运行的软件)
+---
++ 下载：[行人检测(百度网盘(暂无))]
++  
+
+
+源代码调试运行(源码)
 ---
 + ``` git clone "https://github.com/ReverseSacle/FairMOT_Paddle.git"```
++ 解压paddle-env环境到Anaconda3/envs/目录下
++ 使用pycharm，调用此paddle-env环境即可使用
+
+
 
 关于训练(基于paddle_detection)
 ---

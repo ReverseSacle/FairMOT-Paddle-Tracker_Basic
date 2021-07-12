@@ -6,40 +6,43 @@
 ---
 ![MOT20-01](https://github.com/ReverseSacle/FairMOT_Paddle/blob/main/docs/MOT20-01.gif)
 
+
+软件系统环境要求
+---
++ 具备英伟达显卡 显存4G及其以上
++ 运行内存 8G及其以上
++ 具备window7及其以上版本的系统
+
+快速使用(可运行的软件)
+---
++ 下载：[行人检测(百度网盘(暂无))]()
++  解压压缩包后，运行.exe文件，之后请参考**相关介绍**中的软件使用指南
+
+相关介绍
+---
++ [概要介绍](https://github.com/ReverseSacle/FairMOT_paddle/blob/main/docs/Introduction_cn.md)
++ [制作介绍](https://github.com/ReverseSacle/FairMOT_paddle/blob/main/docs/Making_Introduction_cn.md)
++ [软件使用指南]()
+
+
 源码环境要求
 ---
 + python3
 + OpenCV
 + 需要的第三方库 -> 基本为paddle_detection所需要的
 + 运行的测试平台 -> window10
-+ 已经配置好的conda环境--[paddle-env(百度网盘暂无)]()
-
-软件系统环境要求
----
-+ 具备英伟达显卡 显存4G及4G以上
-+ 运行内存 16G
-+ 具备window7及其以上版本的系统
-
-相关介绍
----
-+ [概要介绍](https://github.com/ReverseSacle/FairMOT_paddle/blob/main/docs/Introduction_cn.md)
-+ [制作介绍](https://github.com/ReverseSacle/FairMOT_paddle/blob/main/docs/Making_Introduction_cn.md)
-
-提供的模型权重文件
----
-+ **下载：** [百度网盘(暂无)]() -> 默认需放置根目录的model文件夹下
-
-快速使用(可运行的软件)
----
-+ 下载：[行人检测(百度网盘(暂无))]
-+  
-
++ 已经配置好的conda环境(所需要的全部环境的整合)--[paddle-env(百度网盘暂无)]()
 
 源代码调试运行
 ---
 + ``` git clone "https://github.com/ReverseSacle/FairMOT_Paddle.git"```
 + 解压paddle-env环境到Anaconda3/envs/目录下
 + 使用pycharm，调用此paddle-env环境即可使用
+
+
+提供的模型权重文件
+---
++ **下载：** [百度网盘(暂无)]() -> 默认需放置根目录的model文件夹下
 
 
 

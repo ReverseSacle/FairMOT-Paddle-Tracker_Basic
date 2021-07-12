@@ -12,7 +12,7 @@
 + OpenCV
 + 需要的第三方库 -> 基本为paddle_detection所需要的
 + 运行的测试平台 -> window10
-+ 已经配置好的conda环境--[paddle-env(百度网盘暂无)]
++ 已经配置好的conda环境--[paddle-env(百度网盘暂无)]()
 
 软件系统环境要求
 ---

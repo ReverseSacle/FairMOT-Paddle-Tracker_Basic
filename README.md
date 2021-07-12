@@ -6,13 +6,19 @@
 ---
 ![MOT20-01](https://github.com/ReverseSacle/FairMOT_Paddle/blob/main/docs/MOT20-01.gif)
 
-环境要求(源码要求)
+源码环境要求
 ---
 + python3
 + OpenCV
 + 需要的第三方库 -> 基本为paddle_detection所需要的
 + 运行的测试平台 -> window10
 + 已经配置好的conda环境--[paddle-env(百度网盘暂无)]
+
+软件系统环境要求
+---
++ 具备英伟达显卡 显存4G及4G以上
++ 运行内存 16G
++ 具备window7及其以上版本
 
 相关介绍
 ---

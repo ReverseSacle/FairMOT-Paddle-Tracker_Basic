@@ -13,6 +13,7 @@
 + OpenCV
 + 需要的第三方库 -> ```python setup.py install```
 + 运行的测试平台 -> window10
++ 已经配置好的conda环境--[paddle-env(暂无)]
 
 相关介绍
 ---

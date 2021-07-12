@@ -18,7 +18,7 @@
 ---
 + 具备英伟达显卡 显存4G及4G以上
 + 运行内存 16G
-+ 具备window7及其以上版本
++ 具备window7及其以上版本的系统
 
 相关介绍
 ---
@@ -35,7 +35,7 @@
 +  
 
 
-源代码调试运行(源码)
+源代码调试运行
 ---
 + ``` git clone "https://github.com/ReverseSacle/FairMOT_Paddle.git"```
 + 解压paddle-env环境到Anaconda3/envs/目录下

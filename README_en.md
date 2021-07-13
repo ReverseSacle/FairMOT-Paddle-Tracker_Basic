@@ -8,11 +8,12 @@ Preview
 
 Enviroment Requirement
 ---
-+ python3
-+ paddlepaddle_develop edition
-+ OpenCV
-+ needed requirement -> ``` python setup.py install```
-+ test system -> window10
++ Python3
++ Paddlepaddle==2.1.0 edition
++ OpenCV-python
++ Needed requirement -> All the requirement of paddle_detection
++ Test system -> window10
++ The provided pkged enviroment(coda enviroment wich have all the needed lib) --> [Baidu Netdisk(coming soon)]()
 
 Introduction
 ---

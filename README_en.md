@@ -22,7 +22,8 @@ Introduction
 
 Provide Model file
 ---
-**Download：** [Google Drive](https://pan.baidu.com/s/1tXpDy2dSk1XYtFwdOsv1pg) -> need to put it in the folder named model(root_dir)
+One is the weight(best_model) and the other is the inference weight which you need.  
+**Download：** [Google Drive](https://drive.google.com/file/d/14iXPzddTOLkW-eH6eLzWKK2I6hC87asN/view?usp=sharing) -> need to put them in  the folder named model(root_dir)
 
 Quickly start
 ---

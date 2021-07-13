@@ -42,7 +42,7 @@
 
 提供的模型权重文件
 ---
-+ **下载：** [百度网盘(暂无)]() -> 默认需放置根目录的model文件夹下
++ **下载：** [百度网盘(提取码：REVE)](https://pan.baidu.com/s/1tXpDy2dSk1XYtFwdOsv1pg) -> 默认需放置根目录的model文件夹下
 
 
 

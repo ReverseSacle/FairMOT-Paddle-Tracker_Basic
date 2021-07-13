@@ -13,7 +13,7 @@ Enviroment Requirement
 + OpenCV-python
 + Needed requirement -> All the requirements of paddle_detection
 + Test system -> window10
-+ The provided pkged enviroment(coda enviroment wich have all the needed libs) --> [Baidu Netdisk(coming soon)]()
++ The provided pkged enviroment(coda enviroment wich have all the needed libs) --> [Baidu Netdisk(Code：REVE)](https://pan.baidu.com/s/1JW7pPSYcO9cclDrnSI3TRg)
 
 Introduction
 ---

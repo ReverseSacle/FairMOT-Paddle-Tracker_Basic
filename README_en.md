@@ -13,7 +13,7 @@ Enviroment Requirement
 + OpenCV-python
 + Needed requirement -> All the requirements of paddle_detection
 + Test system -> window10
-+ The provided pkged enviroment(coda enviroment wich have all the needed libs) --> [Google Driver](https://drive.google.com/file/d/1zFbvtcSQwsg6Pmuoo0-q1k9-RclSbNE1/view?usp=sharing)
++ The provided pkged enviroment(coda enviroment wich have all the needed libs) --> [Google Drive](https://drive.google.com/file/d/1zFbvtcSQwsg6Pmuoo0-q1k9-RclSbNE1/view?usp=sharing)
 
 Introduction
 ---
@@ -22,7 +22,7 @@ Introduction
 
 Provide Model file
 ---
-**Download：** [Baidu Netdisk(Code：REVE)](https://pan.baidu.com/s/1tXpDy2dSk1XYtFwdOsv1pg) -> need to put it in the folder named model(root_dir)
+**Download：** [Google Drive](https://pan.baidu.com/s/1tXpDy2dSk1XYtFwdOsv1pg) -> need to put it in the folder named model(root_dir)
 
 Quickly start
 ---

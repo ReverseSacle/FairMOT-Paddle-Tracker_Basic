@@ -22,7 +22,7 @@ Introduction
 
 Provide Model file
 ---
-**Download：** [Baidu Netdisk(Code：REVE)](https://pan.baidu.com/s/1tXpDy2dSk1XYtFwdOsv1pg) -> need to put it in the folder named module(root_dir)
+**Download：** [Baidu Netdisk(Code：REVE)](https://pan.baidu.com/s/1tXpDy2dSk1XYtFwdOsv1pg) -> need to put it in the folder named model(root_dir)
 
 Quickly start
 ---

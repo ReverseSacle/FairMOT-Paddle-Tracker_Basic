@@ -22,7 +22,7 @@
 ---
 + [概要介绍](https://github.com/ReverseSacle/FairMOT_paddle/blob/main/docs/Introduction_cn.md)
 + [制作介绍](https://github.com/ReverseSacle/FairMOT_paddle/blob/main/docs/Making_Introduction_cn.md)
-+ [软件使用指南]()
++ [软件使用指南](https://github.com/ReverseSacle/FairMOT-Paddle-Tracker/blob/main/docs/The_fuction_of_program_cn.md)
 
 
 源码环境要求

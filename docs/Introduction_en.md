@@ -4,8 +4,5 @@ Summary_Introduction
 Introduction
 ---
 
-Base on baidu's [Paddle_Detection_2.1](https://github.com/PaddlePaddle/PaddleDetection) and choose the FairMOT which has high balanced of Real-time and Precision.
-
-Avilabel sence
----
+Base on baidu's [Paddle_Detection_2.1](https://github.com/PaddlePaddle/PaddleDetection) and use the __FairMOT Net__ to realize the function of MOT,which has High-balanced of Real-time and Precision,and use __QT5__ to create a interface which have some function button and beautified interface.
 

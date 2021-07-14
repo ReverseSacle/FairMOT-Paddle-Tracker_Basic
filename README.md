@@ -57,7 +57,7 @@
 作者(大一在读生)
 ---
 
-百度Ai studio主页
+百度Ai Studio主页
 ---
 
 + [ReverseSacle](https://aistudio.baidu.com/aistudio/usercenter)

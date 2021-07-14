@@ -54,7 +54,11 @@
 按需要选择数据集，并非需全部下载，之后修改```configs/dataset/mot.yml```
 + [->开始训练](https://github.com/PaddlePaddle/PaddleDetection/blob/release/2.1/configs/mot/fairmot/README_cn.md)
 
-作者
+作者(大一在读生)
 ---
-+ 大一在读生
+
+百度Ai studio主页
++ [ReverseSacle](https://aistudio.baidu.com/aistudio/usercenter)
++ [ASDLibb](https://aistudio.baidu.com/aistudio/personalcenter/thirdview/736371)
++ [Chen Huilin](https://aistudio.baidu.com/aistudio/personalcenter/thirdview/787763)
  

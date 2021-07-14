@@ -25,7 +25,7 @@
 + [软件使用指南](https://github.com/ReverseSacle/FairMOT-Paddle-Tracker/blob/main/docs/The_fuction_of_program_cn.md)
 
 
-源码环境要求
+源代码环境要求
 ---
 + python3
 + OpenCV

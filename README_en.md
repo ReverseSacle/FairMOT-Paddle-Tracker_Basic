@@ -23,13 +23,13 @@ Introduction
 Provide Model file
 ---
 One is the weight(best_model) and the other is the inference weight which you need.  
-**Download：** [Google Drive](https://drive.google.com/file/d/14iXPzddTOLkW-eH6eLzWKK2I6hC87asN/view?usp=sharing) -> need to put them in  the folder named model(root_dir)
+**Download：** [Google Drive](https://drive.google.com/file/d/14iXPzddTOLkW-eH6eLzWKK2I6hC87asN/view?usp=sharing) -> need to put them in  the folder named __best_model__(root_dir)
 
 Quickly start
 ---
 + ```git clone "https://github.com/ReverseSacle/FairMOT_Paddle.git"```
 + Unzip paddle-enviroment in Anaconda3/envs/ folder
-+ Use pycharm,choose paddle-env enviroment.Then,create a folder named model,put the inference-weight in the model folder.
++ Use pycharm,choose paddle-env enviroment.Then,create a folder named model,put the inference-weight in the __best_model__ folder.
 
 
 

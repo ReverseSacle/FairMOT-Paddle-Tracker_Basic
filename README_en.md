@@ -11,7 +11,7 @@ Enviroment Requirement
 + Python3
 + Paddlepaddle==2.1.0 edition
 + OpenCV-python
-+ Needed requirement -> All the requirements of paddle_detection
++ Needed requirements -> All the requirements of paddle_detection
 + Test system -> window10
 + The provided pkged enviroment(coda enviroment wich have all the needed libs) --> [Google Drive](https://drive.google.com/file/d/1zFbvtcSQwsg6Pmuoo0-q1k9-RclSbNE1/view?usp=sharing)
 

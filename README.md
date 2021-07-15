@@ -36,7 +36,7 @@
 + OpenCV
 + 需要的第三方库 -> 基本为paddle_detection所需要的
 + 运行的测试平台 -> window10
-+ 已经配置好的conda环境(所需要的全部环境的整合)--[paddle-env(百度网盘(提取码：REVE))](https://pan.baidu.com/s/1hIdoFk4yiX6z1SR_6QMaPA)
++ 已经配置好的conda环境(所需要的全部环境的整合) --> paddle-env**下载：**[(百度网盘(提取码：REVE))](https://pan.baidu.com/s/1hIdoFk4yiX6z1SR_6QMaPA)
 
 源代码调试运行
 ---

@@ -6,6 +6,11 @@ Preview
 ---
 ![MOT20-01](https://github.com/ReverseSacle/FairMOT_Paddle/blob/main/docs/MOT20-01.gif)
 
+Preview for Interface
+---
+![Interface](https://user-images.githubusercontent.com/73418195/125725000-bbc92a47-2576-4e9f-81ba-e036456b84fc.png)
+
+
 Enviroment Requirement
 ---
 + Python3
@@ -22,7 +27,6 @@ Introduction
 
 Provide Model file
 ---
-One is the weight(best_model) and the other is the inference weight which you need.  
 **Download：** [Google Drive](https://drive.google.com/file/d/14iXPzddTOLkW-eH6eLzWKK2I6hC87asN/view?usp=sharing) -> need to put them in  the folder named __best_model__(root_dir)
 
 Quickly start

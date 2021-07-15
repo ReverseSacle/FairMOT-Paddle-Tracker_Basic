@@ -6,6 +6,11 @@
 ---
 ![MOT20-01](https://github.com/ReverseSacle/FairMOT_Paddle/blob/main/docs/MOT20-01.gif)
 
+界面预览
+---
+![Interface](https://user-images.githubusercontent.com/73418195/125724499-55b6bf0e-37eb-4ee1-99db-7ea25f0b0260.png)
+
+
 
 软件系统环境要求
 ---

@@ -33,7 +33,7 @@ Quickly start
 ---
 + ```git clone "https://github.com/ReverseSacle/FairMOT_Paddle.git"```
 + Unzip paddle-enviroment in Anaconda3/envs/ folder
-+ Use pycharm,choose paddle-env enviroment.Then,create a folder named model,put the inference-weight in the __best_model__ folder.
++ Use pycharm,choose paddle-env enviroment.Then,create a folder named **best_model**,unzip the inference-weight in the __best_model__ folder.
 
 
 

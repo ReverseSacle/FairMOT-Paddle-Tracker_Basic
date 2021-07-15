@@ -36,7 +36,7 @@
 + OpenCV
 + 需要的第三方库 -> 基本为paddle_detection所需要的
 + 运行的测试平台 -> window10
-+ 已经配置好的conda环境(所需要的全部环境的整合)--[paddle-env(百度网盘(提取码：REVE))](https://pan.baidu.com/s/1JW7pPSYcO9cclDrnSI3TRg)
++ 已经配置好的conda环境(所需要的全部环境的整合)--[paddle-env(百度网盘(提取码：REVE))](https://pan.baidu.com/s/1hIdoFk4yiX6z1SR_6QMaPA)
 
 源代码调试运行
 ---
@@ -48,7 +48,7 @@
 提供的模型权重文件
 ---
 一个是训练好的模型权重文件，另一个是你需要的inference权重。
-+ **下载：** [百度网盘(提取码：REVE)](https://pan.baidu.com/s/1tXpDy2dSk1XYtFwdOsv1pg) -> 默认需放置根目录的model文件夹下
++ **下载：** [百度网盘(提取码：REVE)](https://pan.baidu.com/s/1U5AhqkMyocZwIYkKMnSgCg) -> 默认需放置根目录的model文件夹下
 
 
 

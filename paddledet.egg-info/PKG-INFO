@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: paddledet
+Version: 2.1.0
+Summary: Object detection and instance segmentation toolkit based on PaddlePaddle
+Home-page: https://github.com/PaddlePaddle/PaddleDetection
+Author: PaddlePaddle
+License: Apache License 2.0
+Download-URL: https://github.com/PaddlePaddle/PaddleDetection.git
+Description: UNKNOWN
+Keywords: ppdet paddle ppyolo
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown

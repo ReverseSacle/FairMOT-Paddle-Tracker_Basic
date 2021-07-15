@@ -47,7 +47,6 @@
 
 提供的模型权重文件
 ---
-一个是训练好的模型权重文件，另一个是你需要的inference权重。
 + **下载：** [百度网盘(提取码：REVE)](https://pan.baidu.com/s/1U5AhqkMyocZwIYkKMnSgCg) -> 默认需放置根目录的model文件夹下
 
 

@@ -18,7 +18,7 @@ Enviroment Requirement
 + OpenCV-python
 + Needed requirements -> All the requirements of paddle_detection
 + Test system -> window10
-+ The provided pkged enviroment(coda enviroment wich have all the needed libs) --> [Google Drive](https://drive.google.com/file/d/1zFbvtcSQwsg6Pmuoo0-q1k9-RclSbNE1/view?usp=sharing)
++ The provided pkged enviroment(coda enviroment wich have all the needed libs) --> [Google Drive](https://drive.google.com/file/d/11Wxn3kojjrbd-YL59h8dfg3eQLt0IJmn/view?usp=sharing)
 
 Introduction
 ---
@@ -27,7 +27,7 @@ Introduction
 
 Provide Model file
 ---
-**Download：** [Google Drive](https://drive.google.com/file/d/14iXPzddTOLkW-eH6eLzWKK2I6hC87asN/view?usp=sharing) -> need to put them in  the folder named __best_model__(root_dir)
+**Download：** [Google Drive](https://drive.google.com/file/d/1PRkK0G5-I9t63cT_YgCetKSpxQEecZ7-/view?usp=sharing) -> need to put them in  the folder named __best_model__(root_dir)
 
 Quickly start
 ---

@@ -639,6 +639,11 @@ class VideoQt(QWidget):
         self.verticalLayout.addWidget(self.quitButton)
         self.retranslateUi(Form)
         QtCore.QMetaObject.connectSlotsByName(Form)
+        #进度条
+        self.progressBar = QProgressBar()
+        self.progressBar.setRange(0,100)
+        self.progressBar.setValue(0)
+        self.verticalLayout.addWidget(self.progressBar)
 
     def retranslateUi(self, Form):
         self._translate = QtCore.QCoreApplication.translate

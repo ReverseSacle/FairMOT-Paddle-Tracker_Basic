@@ -663,7 +663,7 @@ class VideoQt(QWidget):
 
     def retranslateUi(self, Form):
         self._translate = QtCore.QCoreApplication.translate
-        Form.setWindowTitle(self._translate("Form", "行人检测识别"))
+        Form.setWindowTitle(self._translate("Form", "行人检测与追踪"))
 
         # self.label1.setText(self._translate("MainWindow", "行人检测系统"))
         self.videolabel.setText(self._translate("Form", " "))

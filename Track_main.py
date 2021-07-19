@@ -405,7 +405,13 @@ class VideoQt(QWidget):
         self.writer.release()
         self.cap.release()
         cv2.destroyAllWindows()
-
+    def count_rate(self,num):
+        max_rate = 0
+        for each in range(1,101):
+            if num // each == 0 and each > max_rate:
+                max_rate = each
+                
+        return max_rate
         #视频追踪
     def predict_video(self):
         flag_predict = 0
@@ -422,6 +428,7 @@ class VideoQt(QWidget):
                 file_name = (set_video_file.split('.')[0]).split('/')[-1] + '_output'
                 self.video_output_address = self.set_root_dir + '/output/' + file_name + '.mp4'
                 print('输出路径：' + self.video_output_address)
+            self.progressBar.setValue(0)
             paddle.enable_static()
             parser = argsparser(self.set_root_dir,
                                 set_video_file,
@@ -467,6 +474,7 @@ class VideoQt(QWidget):
             frame_id = 0
             timer = MOTTimer()
             results = []
+            max_rate = self.count_rate(frame_count)
             while (1):
                 ret, frame = self.capture.read()
                 if not ret:
@@ -496,6 +504,7 @@ class VideoQt(QWidget):
                 print('detect frame:%d' % (frame_id))
                 im = np.array(online_im)
                 writer.write(im)
+                self.progressBar.setValue(step//max_rate)
                 QApplication.processEvents()
             self.flag_to_video = 1
             msg_box = QMessageBox(QMessageBox.Warning, '提示！',  "视频预测完成")

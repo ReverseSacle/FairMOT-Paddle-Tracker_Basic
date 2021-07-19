@@ -217,7 +217,7 @@ class VideoQt(QWidget):
         self.threshold_value = text
         return print(self.threshold_value)
 
-    def open_video(self):
+    def open_current_device_video(self):
         try:
             # Set params
             self.couting_time += 1
@@ -309,7 +309,7 @@ class VideoQt(QWidget):
             msg_box.exec_()
 
 
-    def open_video2(self):
+    def open_other_device_video(self):
         try:
             # Set params
             self.couting_time += 1
@@ -607,7 +607,7 @@ class VideoQt(QWidget):
         self.openButton.setObjectName("openButton")
         self.openButton.setStyleSheet('background-color:slategray;font-size:16px;color:white;')
         self.openButton.setGeometry(0, 0, 32, 32)
-        self.openButton.clicked.connect(self.open_video)
+        self.openButton.clicked.connect(self.open_current_device_video)
         self.verticalLayout.addWidget(self.openButton)
 
         # 外置按钮
@@ -615,7 +615,7 @@ class VideoQt(QWidget):
         self.openButton2.setObjectName("openButton")
         self.openButton2.setStyleSheet('background-color:slategray;font-size:16px;color:white;')
         self.openButton2.setGeometry(0, 0, 32, 32)
-        self.openButton2.clicked.connect(self.open_video2)
+        self.openButton2.clicked.connect(self.open_other_device_video)
         self.verticalLayout.addWidget(self.openButton2)
 
         # 打开视频文件

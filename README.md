@@ -61,7 +61,7 @@
 按需要选择数据集，并非需全部下载，之后修改```configs/dataset/mot.yml```
 + [->开始训练](https://github.com/PaddlePaddle/PaddleDetection/blob/release/2.1/configs/mot/fairmot/README_cn.md)
 
-作者
+贡献者
 ---
 
 百度Ai Studio主页

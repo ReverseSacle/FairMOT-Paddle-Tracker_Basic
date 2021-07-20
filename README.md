@@ -45,12 +45,12 @@
 ---
 + ``` git clone "https://github.com/ReverseSacle/FairMOT_Paddle.git"```
 + 解压paddle-env环境到Anaconda3/envs/目录下
-+ 使用pycharm，调用此paddle-env环境,再在根目录中创建一个**bset_model**文件夹将下面的模型权重中的xxxinference压缩包解压到此文件夹中即可使用
++ 使用pycharm，调用此paddle-env环境,再在根目录中创建一个**bset_model**文件夹将下面的模型权重压缩包解压到此文件夹中即可使用
 
 
 提供的模型权重文件
 ---
-+ **下载：** [百度网盘(提取码：REVE)](https://pan.baidu.com/s/1U5AhqkMyocZwIYkKMnSgCg) -> 默认需放置根目录的model文件夹下
++ **下载：** [百度网盘(提取码：REVE)](https://pan.baidu.com/s/1U5AhqkMyocZwIYkKMnSgCg) -> 默认需放置根目录的best_model文件夹下
 
 
 

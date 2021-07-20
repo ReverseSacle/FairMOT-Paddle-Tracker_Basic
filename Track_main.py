@@ -3,12 +3,13 @@ import paddle
 import os
 import cv2
 import time
+
 from PyQt5.QtGui import *
 from PyQt5.QtWidgets import *
 from PyQt5 import QtCore, QtWidgets
 from PyQt5.QtCore import *
-from cv2 import *
 
+from cv2 import *
 from deploy.python.infer import print_arguments, PredictConfig
 from deploy.python.mot_jde_infer import JDE_Detector, MOTTimer
 from deploy.python.utils import argsparser
@@ -483,8 +484,6 @@ class VideoQt(QWidget):
                 cpu_threads=FLAGS.cpu_threads,
                 enable_mkldnn=FLAGS.enable_mkldnn)
 
-            # predict from video file or camera video stream
-
             self.capture = cv2.VideoCapture(FLAGS.video_file)
             video_name = file_name + '.mp4'
             fps = 30
@@ -568,12 +567,14 @@ class VideoQt(QWidget):
         Form.setObjectName("Form")
         # 窗口大小
         Form.resize(960, 610)
+        
         # 摄像区
         self.horizontalLayoutWidget = QtWidgets.QWidget(Form)
         self.horizontalLayoutWidget.setStyleSheet('font-size:16px;color:white;')
         self.horizontalLayoutWidget.setGeometry(QtCore.QRect(0, 5, 800, 600))
         self.horizontalLayoutWidget.setObjectName("horizontalLayoutWidget")
         self.horizontalLayout = QtWidgets.QHBoxLayout(self.horizontalLayoutWidget)
+        
         # 设置摄像头播放区
         self.horizontalLayout.setObjectName("horizontalLayout")
         # self.horizontalLayout.setContentsMargins(0, 0, 0, 0)
@@ -583,6 +584,7 @@ class VideoQt(QWidget):
         self.videolabel.setScaledContents(True)
         self.videolabel.setObjectName("videolabel")
         self.horizontalLayout.addWidget(self.videolabel)
+        
         # 设置视频播放区
         # self.horizontalLayout.setContentsMargins(0, 0, 0, 0)
         self.videolabel2 = QtWidgets.QLabel(self.horizontalLayoutWidget)
@@ -591,6 +593,7 @@ class VideoQt(QWidget):
         self.videolabel2.setScaledContents(True)
         self.videolabel2.setObjectName("videolabel2")
         self.horizontalLayout.addWidget(self.videolabel2)
+        
         # 按钮组
         self.verticalLayoutWidget = QtWidgets.QWidget(Form)
         self.verticalLayoutWidget.setGeometry(QtCore.QRect(800, 200, 150, 300))
@@ -599,6 +602,7 @@ class VideoQt(QWidget):
         self.verticalLayout = QtWidgets.QVBoxLayout(self.verticalLayoutWidget)
         self.verticalLayout.setContentsMargins(0, 0, 0, 0)
         self.verticalLayout.setObjectName("verticalLayout")
+        
         # 阈值选择区
         self.Thresholdlable = QtWidgets.QLabel(self.verticalLayoutWidget)
         self.Thresholdlable.setObjectName("Thresholdlable")
@@ -618,6 +622,7 @@ class VideoQt(QWidget):
         self.selectButton.setStyleSheet('background-color:slategray;font-size:16px;color:white;')
         self.selectButton.clicked.connect(self.open_video_file)
         self.verticalLayout.addWidget(self.selectButton)
+        
         # 视频检测
         self.videoButton = QtWidgets.QPushButton(self.verticalLayoutWidget)
         self.videoButton.setEnabled(True)
@@ -625,6 +630,7 @@ class VideoQt(QWidget):
         self.videoButton.setStyleSheet('background-color:slategray;font-size:16px;color:white;')
         self.videoButton.clicked.connect(self.predict_video)
         self.verticalLayout.addWidget(self.videoButton)
+        
         # 暂停与播放键
         self.stopButton = QtWidgets.QPushButton(self.verticalLayoutWidget)
         self.stopButton.setObjectName("startButto")
@@ -661,6 +667,7 @@ class VideoQt(QWidget):
         self.closeButton.setStyleSheet('background-color:slategray;font-size:16px;color:white;')
         self.closeButton.clicked.connect(self.close_video)
         self.verticalLayout.addWidget(self.closeButton)
+        
         # 关闭窗口
         self.quitButton = QtWidgets.QPushButton(self.verticalLayoutWidget)
         self.quitButton.setObjectName("quitButton")
@@ -669,6 +676,7 @@ class VideoQt(QWidget):
         self.verticalLayout.addWidget(self.quitButton)
         self.retranslateUi(Form)
         QtCore.QMetaObject.connectSlotsByName(Form)
+        
         #进度条
         self.progressBar = QProgressBar()
         self.progressBar.setValue(0)

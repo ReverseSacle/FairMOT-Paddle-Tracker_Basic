@@ -229,7 +229,7 @@ class VideoQt(QWidget):
     # 获取阈值
     def onActivated(self, text):
         self.threshold_value = text
-        return print(self.threshold_value)
+        print(self.threshold_value)
 
     def open_current_device_video(self):
         try:

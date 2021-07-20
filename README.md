@@ -19,7 +19,7 @@
 
 快速使用(可运行的软件)
 ---
-+ 下载：[行人检测与追踪软件(百度网盘(暂无))]()
++ 下载：[行人检测与追踪软件(百度网盘(暂无))]() --> 当前Basic版本暂无
 +  解压压缩包后，运行.exe文件，之后请参考**相关介绍**中的软件使用指南
 
 相关介绍
@@ -39,7 +39,7 @@
 
 源代码调试运行
 ---
-+ ``` git clone "https://github.com/ReverseSacle/FairMOT_Paddle.git"```
++ ``` git clone "https://github.com/ReverseSacle/FairMOT-Paddle-Tracker_Basic.git"```
 + 解压paddle-env环境到Anaconda3/envs/目录下
 + 使用pycharm，调用此paddle-env环境,再在根目录中创建一个**bset_model**文件夹将下面的模型权重压缩包解压到此文件夹中即可使用
 

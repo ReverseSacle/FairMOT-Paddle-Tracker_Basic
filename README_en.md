@@ -8,7 +8,8 @@ Preview
 
 Preview for Interface
 ---
-![Interface](https://user-images.githubusercontent.com/73418195/125725000-bbc92a47-2576-4e9f-81ba-e036456b84fc.png)
+![Interface](https://user-images.githubusercontent.com/73418195/126273708-42a9aec3-a07f-4102-aaf2-3a6f5cadf2b5.png)
+
 
 
 Enviroment Requirement

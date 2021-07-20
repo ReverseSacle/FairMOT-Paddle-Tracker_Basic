@@ -8,7 +8,8 @@
 
 界面预览
 ---
-![Interface](https://user-images.githubusercontent.com/73418195/126173987-1ba8ea07-b337-4f66-a74a-d105dd7067c5.png)
+![Interface](https://user-images.githubusercontent.com/73418195/126268446-f38053a6-3b1c-4c3f-98c2-afe07030a8ff.png)
+
 
 
 

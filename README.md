@@ -11,10 +11,6 @@
 ![Interface](https://user-images.githubusercontent.com/73418195/126268446-f38053a6-3b1c-4c3f-98c2-afe07030a8ff.png)
 
 
-
-
-
-
 软件系统环境要求
 ---
 + 具备英伟达显卡 显存4G及其以上
@@ -60,6 +56,12 @@
 + [->准备数据集](https://github.com/PaddlePaddle/PaddleDetection/blob/release/2.1/configs/mot/README_cn.md)->
 按需要选择数据集，并非需全部下载，之后修改```configs/dataset/mot.yml```
 + [->开始训练](https://github.com/PaddlePaddle/PaddleDetection/blob/release/2.1/configs/mot/fairmot/README_cn.md)
+
+基础套件：
+---
++ Pyqt5 --> 界面、按钮组、阈值选择、文件选择和进度条
++ Paddle --> 视频追踪与摄像头追踪
++ Opencv --> 视频播放与暂停
 
 贡献者
 ---

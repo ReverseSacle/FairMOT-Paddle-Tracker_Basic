@@ -19,14 +19,14 @@
 
 快速使用(可运行的软件)
 ---
-+ 下载：[行人检测与追踪软件(百度网盘(暂无))]() --> 当前Basic版本暂无
++ 下载：[->行人检测与追踪软件(百度网盘(暂无))]() --> 当前Basic版本暂无
 +  解压压缩包后，运行.exe文件，之后请参考**相关介绍**中的软件使用指南
 
 相关介绍
 ---
-+ [概要介绍](https://github.com/ReverseSacle/FairMOT_paddle/blob/main/docs/Introduction_cn.md)
-+ [制作介绍](https://github.com/ReverseSacle/FairMOT_paddle/blob/main/docs/Making_Introduction_cn.md)
-+ [软件使用指南](https://github.com/ReverseSacle/FairMOT-Paddle-Tracker/blob/main/docs/The_fuction_of_program_cn.md)
++ [->概要介绍](https://github.com/ReverseSacle/FairMOT_paddle/blob/main/docs/Introduction_cn.md)
++ [->制作介绍](https://github.com/ReverseSacle/FairMOT_paddle/blob/main/docs/Making_Introduction_cn.md)
++ [->软件使用指南](https://github.com/ReverseSacle/FairMOT-Paddle-Tracker/blob/main/docs/The_fuction_of_program_cn.md)
 
 
 源代码环境要求
@@ -35,7 +35,7 @@
 + OpenCV
 + 需要的第三方库 -> 基本为paddle_detection所需要的
 + 运行的测试平台 -> window10
-+ 已经配置好的conda环境(所需要的全部环境的整合) --> **paddle-env下载：**[(百度网盘(提取码：REVE))](https://pan.baidu.com/s/1hIdoFk4yiX6z1SR_6QMaPA)
++ 已经配置好的conda环境(所需要的全部环境的整合) --> **paddle-env下载：**[->(百度网盘(提取码：REVE))](https://pan.baidu.com/s/1hIdoFk4yiX6z1SR_6QMaPA)
 
 源代码调试运行
 ---
@@ -46,7 +46,7 @@
 
 提供的模型权重文件
 ---
-+ **下载：** [百度网盘(提取码：REVE)](https://pan.baidu.com/s/1U5AhqkMyocZwIYkKMnSgCg) -> 默认需放置根目录的best_model文件夹下
++ **下载：** [->百度网盘(提取码：REVE)](https://pan.baidu.com/s/1U5AhqkMyocZwIYkKMnSgCg) -> 默认需放置根目录的best_model文件夹下
 
 
 
@@ -67,7 +67,7 @@
 百度Ai Studio主页
 ---
 
-+ [ReverseSacle](https://aistudio.baidu.com/aistudio/usercenter)
-+ [ASDLibb](https://aistudio.baidu.com/aistudio/personalcenter/thirdview/736371)
-+ [Chen Huilin](https://aistudio.baidu.com/aistudio/personalcenter/thirdview/787763)
++ [->ReverseSacle](https://aistudio.baidu.com/aistudio/usercenter)
++ [->ASDLibb](https://aistudio.baidu.com/aistudio/personalcenter/thirdview/736371)
++ [->Chen Huilin](https://aistudio.baidu.com/aistudio/personalcenter/thirdview/787763)
  

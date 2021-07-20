@@ -443,7 +443,12 @@ class VideoQt(QWidget):
             self.set_threshold = self.threshold_value  # 阈值
             if os.path.exists(self.video_address):
                 set_video_file = self.video_address
-                flag_predict = 1
+                if os.path.exists(self.set_root_dir + '/best_model/infer_cfg.yml'):
+                    flag_predict = 1
+
+                else:
+                    msg_box = QMessageBox(QMessageBox.Warning, '提示！', "请检查best_model文件夹！")
+                    msg_box.exec_()
             else:
                 msg_box = QMessageBox(QMessageBox.Warning, '提示！', "请确保有输入路径")
                 msg_box.exec_()

@@ -52,7 +52,7 @@
 
 关于训练(基于paddle_detection)
 ---
-+ [->Paddle_Detection 工具](https://github.com/PaddlePaddle/PaddleDetection) -> ```git clone "https://github.com/ReverseSacle/FairMOT-Paddle-Tracker_Basic.git" ```
++ [->Paddle_Detection 工具](https://github.com/PaddlePaddle/PaddleDetection) -> ```git clone "https://github.com/PaddlePaddle/PaddleDetection.git" ```
 + [->准备数据集](https://github.com/PaddlePaddle/PaddleDetection/blob/release/2.1/configs/mot/README_cn.md)->
 按需要选择数据集，并非需全部下载，之后修改```configs/dataset/mot.yml```
 + [->开始训练](https://github.com/PaddlePaddle/PaddleDetection/blob/release/2.1/configs/mot/fairmot/README_cn.md)

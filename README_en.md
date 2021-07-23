@@ -38,7 +38,7 @@ Quickly start
 
 About Function of Buttons
 ---
-+ [->Button-Function](https://github.com/ReverseSacle/FairMOT-Paddle-Tracker_Basic/blob/main/docs/The_button_function_en.md)
++ [->What the mean of the button](https://github.com/ReverseSacle/FairMOT-Paddle-Tracker_Basic/blob/main/docs/The_button_function_en.md)
 
 
 

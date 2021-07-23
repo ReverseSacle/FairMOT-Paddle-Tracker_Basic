@@ -36,6 +36,10 @@ Quickly start
 + Unzip paddle-enviroment in Anaconda3/envs/ folder
 + Use pycharm,choose paddle-env enviroment.Then,create a folder named **best_model**,unzip the inference-weight in the __best_model__ folder.
 
+About Function of Buttons
+---
++ [->Button-Function](https://github.com/ReverseSacle/FairMOT-Paddle-Tracker_Basic/blob/main/docs/The_button_function_en.md)
+
 
 
 About training

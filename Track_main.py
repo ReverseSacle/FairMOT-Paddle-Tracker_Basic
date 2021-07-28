@@ -231,7 +231,8 @@ class VideoQt(QWidget):
     def onActivated(self, text):
         self.threshold_value = text
         print(self.threshold_value)
-
+    
+    #Use current device's camera to predict(使用当前设备摄像头)
     def open_current_device_video(self):
         try:
             # Set params
@@ -323,7 +324,7 @@ class VideoQt(QWidget):
             msg_box = QMessageBox(QMessageBox.Warning, '提示！', '请确保有外置摄像头')
             msg_box.exec_()
 
-
+    #Use the other camera of current device to predict(使用外置摄像头)
     def open_other_device_video(self):
         flag = 0
         try:
@@ -550,6 +551,7 @@ class VideoQt(QWidget):
     def open_video_file_to_view(self):
         self.open_video_for_view()
 
+    #The fuction to quit(退出)
     def closeEvent(self, event):
 
         reply = QtWidgets.QMessageBox.question(self, '提示！',
@@ -568,14 +570,14 @@ class VideoQt(QWidget):
         # Windows size(窗口大小)
         Form.resize(960, 610)
         
-        # The filed of camera(摄像区)
+        # The filed of camera(摄像头使用的区域)
         self.horizontalLayoutWidget = QtWidgets.QWidget(Form)
         self.horizontalLayoutWidget.setStyleSheet('font-size:16px;color:white;')
         self.horizontalLayoutWidget.setGeometry(QtCore.QRect(0, 5, 800, 600))
         self.horizontalLayoutWidget.setObjectName("horizontalLayoutWidget")
         self.horizontalLayout = QtWidgets.QHBoxLayout(self.horizontalLayoutWidget)
         
-        # The filed of camera to pad(设置摄像头播放区)
+        # The filed of camera to pad(摄像头播放区区域)
         self.horizontalLayout.setObjectName("horizontalLayout")
         # self.horizontalLayout.setContentsMargins(0, 0, 0, 0)
         self.videolabel = QtWidgets.QLabel(self.horizontalLayoutWidget)
@@ -594,7 +596,7 @@ class VideoQt(QWidget):
         self.videolabel2.setObjectName("videolabel2")
         self.horizontalLayout.addWidget(self.videolabel2)
         
-        # The filed of button(按钮组)
+        # The filed of button(按钮组区域)
         self.verticalLayoutWidget = QtWidgets.QWidget(Form)
         self.verticalLayoutWidget.setGeometry(QtCore.QRect(800, 200, 150, 300))
         self.verticalLayoutWidget.setObjectName("verticalLayoutWidget")
@@ -616,14 +618,14 @@ class VideoQt(QWidget):
         self.Threshold.activated[str].connect(self.onActivated)
         self.verticalLayout.addWidget(self.Threshold)
 
-        # The button of select video file(选择视频文件)
+        # The button of select video file(选择视频文件按钮)
         self.selectButton = QtWidgets.QPushButton(self.verticalLayoutWidget)
         self.selectButton.setObjectName("selectButton")
         self.selectButton.setStyleSheet('background-color:slategray;font-size:16px;color:white;')
         self.selectButton.clicked.connect(self.open_video_file)
         self.verticalLayout.addWidget(self.selectButton)
         
-        # The button of predict video(视频检测)
+        # The button of predict video(视频检测按钮)
         self.videoButton = QtWidgets.QPushButton(self.verticalLayoutWidget)
         self.videoButton.setEnabled(True)
         self.videoButton.setObjectName("videoButton")
@@ -631,7 +633,7 @@ class VideoQt(QWidget):
         self.videoButton.clicked.connect(self.predict_video)
         self.verticalLayout.addWidget(self.videoButton)
         
-        # The button of stop and play(暂停与播放键)
+        # The button of stop and play(暂停与播放键按钮)
         self.stopButton = QtWidgets.QPushButton(self.verticalLayoutWidget)
         self.stopButton.setObjectName("startButto")
         self.stopButton.setStyleSheet('background-color:slategray;font-size:16px;color:white;')

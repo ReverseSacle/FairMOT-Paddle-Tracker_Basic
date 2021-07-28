@@ -71,7 +71,7 @@ class VideoQt(QWidget):
         self.auto_play = auto_play
         self.status = self.STATUS_INIT  # 0: init 1:playing 2: pause
 
-        # timer 设置
+        # Set timer（设置timer)
         self.timer = VideoTimer()
         self.timer.timeSignal.signal[str].connect(self.show_video_images)
         #*******************************************************************
@@ -88,7 +88,7 @@ class VideoQt(QWidget):
 
         #******************************************************************
 
-        # 初始化参数
+        # Init params(初始化参数)
         self.playCapture = cv2.VideoCapture()
         if self.video_output_address != "":
             self.playCapture.open(self.video_output_address)
@@ -101,29 +101,29 @@ class VideoQt(QWidget):
         self.threshold_value = 0.1
         self.fourcc = cv2.VideoWriter_fourcc(*'mp4v')  # 设置编码
 
-    # 选择需要预测的视频文件
+    # To choose the needed video file to predict(选择需要预测的视频文件)
     def choose_file(self):
         self.video_address, filetype = QFileDialog.getOpenFileName(self, "请选择所需要的文件", os.getcwd(),
                                                                    "All Files(*);;Text Files(*.txt)")
         self.flag_for_video_to_display = 0  # 打开
         print('输入路径：' + self.video_address)
 
-    # 选择需要打开的视频文件
+    # To choose the needed video file to view(选择需要打开的视频文件)
     def choose_file_to_view(self):
         self.choose_to_view_folder, filetype = QFileDialog.getOpenFileName(self, "请选择所需要的文件", os.getcwd(),
                                                                            "All Files(*);;Text Files(*.txt)")
-        self.flag_for_video_to_display = 1  # 选择
+        self.flag_for_video_to_display = 1  
         print('选择查看的视频路径：' + self.choose_to_view_folder)
 
-    # 选择需要预测的视频文件的方法函数
+    # The function to open the needed video file to predict(选择需要预测的视频文件的方法函数)
     def open_video_file(self):
         self.choose_file()
 
-    # 选择需要打开的视频文件的方法函数
+    # The function to open the needed video file to view(选择需要打开的视频文件的方法函数)
     def open_video_for_view(self):
         self.choose_file_to_view()
 
-    # 更新进程
+    # Reflash thread(更新进程)
     def reset(self):
         self.timer.stop()
         self.playCapture.release()
@@ -131,7 +131,7 @@ class VideoQt(QWidget):
         self.stopButton.setIcon(self.style().standardIcon(QStyle.SP_MediaPlay))
 
 
-    # 在界面上展示图像
+    # Show image in the filed of display(在界面上展示图像)
     def show_video_images(self):
         if self.playCapture.isOpened():
             success, frame = self.playCapture.read()
@@ -149,7 +149,7 @@ class VideoQt(QWidget):
                 print("read failed, no frame data")
                 success, frame = self.playCapture.read()
                 if not success and self.video_type is VideoQt.VIDEO_TYPE_OFFLINE:
-                    print("play finished")  # 判断本地文件播放完毕
+                    print("play finished")
                     self.reset()
                     self.stopButton.setIcon(self.style().standardIcon(QStyle.SP_MediaStop))
                 return
@@ -157,7 +157,7 @@ class VideoQt(QWidget):
             print("open file or capturing device error, init again")
             self.reset()
 
-    # 暂停与播放开关
+    # The vido function of stop and play(暂停与播放开关)
     def switch_video(self):
         flag = 0
         if self.flag_for_video_to_display == 1:
@@ -227,7 +227,7 @@ class VideoQt(QWidget):
                 else:
                     pass
 
-    # 获取阈值
+    # Get Threshold(获取阈值)
     def onActivated(self, text):
         self.threshold_value = text
         print(self.threshold_value)
@@ -310,7 +310,7 @@ class VideoQt(QWidget):
                     height, width = im.shape[:2]
                     if im.ndim == 3:
                         rgb = cv2.cvtColor(im, cv2.COLOR_BGR2RGB)
-                    elif frame.ndim == 2:
+                    elif im.ndim == 2:
                         rgb = cv2.cvtColor(im, cv2.COLOR_GRAY2BGR)
                     temp_image = QImage(rgb.flatten(), width, height, QImage.Format_RGB888)
                     temp_pixmap = QPixmap.fromImage(temp_image)
@@ -411,7 +411,7 @@ class VideoQt(QWidget):
                         height, width = im.shape[:2]
                         if im.ndim == 3:
                             rgb = cv2.cvtColor(im, cv2.COLOR_BGR2RGB)
-                        elif frame.ndim == 2:
+                        elif im.ndim == 2:
                             rgb = cv2.cvtColor(im, cv2.COLOR_GRAY2BGR)
                         temp_image = QImage(rgb.flatten(), width, height, QImage.Format_RGB888)
                         temp_pixmap = QPixmap.fromImage(temp_image)
@@ -423,8 +423,8 @@ class VideoQt(QWidget):
         except:
             pass
 
-
-    def close_video(self):  # 关闭视频
+    #Close camera(关闭摄像头)
+    def close_video(self): 
         try:
             self.writer.release()
         except:
@@ -436,7 +436,7 @@ class VideoQt(QWidget):
         cv2.destroyAllWindows()
 
 
-    #视频追踪
+    #The function of predict video(视频追踪)
     def predict_video(self):
         flag_predict = 0
         try:
@@ -546,7 +546,7 @@ class VideoQt(QWidget):
             #msg_box.exec_()
 
 
-    # 选择并打开所选的视频文件
+    # The function to choose the seleted video to open(选择并打开所选的视频文件)
     def open_video_file_to_view(self):
         self.open_video_for_view()
 
@@ -565,17 +565,17 @@ class VideoQt(QWidget):
 
     def setupUi(self, Form):
         Form.setObjectName("Form")
-        # 窗口大小
+        # Windows size(窗口大小)
         Form.resize(960, 610)
         
-        # 摄像区
+        # The filed of camera(摄像区)
         self.horizontalLayoutWidget = QtWidgets.QWidget(Form)
         self.horizontalLayoutWidget.setStyleSheet('font-size:16px;color:white;')
         self.horizontalLayoutWidget.setGeometry(QtCore.QRect(0, 5, 800, 600))
         self.horizontalLayoutWidget.setObjectName("horizontalLayoutWidget")
         self.horizontalLayout = QtWidgets.QHBoxLayout(self.horizontalLayoutWidget)
         
-        # 设置摄像头播放区
+        # The filed of camera to pad(设置摄像头播放区)
         self.horizontalLayout.setObjectName("horizontalLayout")
         # self.horizontalLayout.setContentsMargins(0, 0, 0, 0)
         self.videolabel = QtWidgets.QLabel(self.horizontalLayoutWidget)
@@ -585,7 +585,7 @@ class VideoQt(QWidget):
         self.videolabel.setObjectName("videolabel")
         self.horizontalLayout.addWidget(self.videolabel)
         
-        # 设置视频播放区
+        # The filed of video to open(设置视频播放区)
         # self.horizontalLayout.setContentsMargins(0, 0, 0, 0)
         self.videolabel2 = QtWidgets.QLabel(self.horizontalLayoutWidget)
         self.videolabel2.setAutoFillBackground(True)
@@ -594,7 +594,7 @@ class VideoQt(QWidget):
         self.videolabel2.setObjectName("videolabel2")
         self.horizontalLayout.addWidget(self.videolabel2)
         
-        # 按钮组
+        # The filed of button(按钮组)
         self.verticalLayoutWidget = QtWidgets.QWidget(Form)
         self.verticalLayoutWidget.setGeometry(QtCore.QRect(800, 200, 150, 300))
         self.verticalLayoutWidget.setObjectName("verticalLayoutWidget")
@@ -603,7 +603,7 @@ class VideoQt(QWidget):
         self.verticalLayout.setContentsMargins(0, 0, 0, 0)
         self.verticalLayout.setObjectName("verticalLayout")
         
-        # 阈值选择区
+        # The filed of threshold(阈值选择区)
         self.Thresholdlable = QtWidgets.QLabel(self.verticalLayoutWidget)
         self.Thresholdlable.setObjectName("Thresholdlable")
         self.Thresholdlable.setStyleSheet('font-size:16px;color:white;')
@@ -616,14 +616,14 @@ class VideoQt(QWidget):
         self.Threshold.activated[str].connect(self.onActivated)
         self.verticalLayout.addWidget(self.Threshold)
 
-        # 选择视频文件
+        # The button of select video file(选择视频文件)
         self.selectButton = QtWidgets.QPushButton(self.verticalLayoutWidget)
         self.selectButton.setObjectName("selectButton")
         self.selectButton.setStyleSheet('background-color:slategray;font-size:16px;color:white;')
         self.selectButton.clicked.connect(self.open_video_file)
         self.verticalLayout.addWidget(self.selectButton)
         
-        # 视频检测
+        # The button of predict video(视频检测)
         self.videoButton = QtWidgets.QPushButton(self.verticalLayoutWidget)
         self.videoButton.setEnabled(True)
         self.videoButton.setObjectName("videoButton")
@@ -631,14 +631,14 @@ class VideoQt(QWidget):
         self.videoButton.clicked.connect(self.predict_video)
         self.verticalLayout.addWidget(self.videoButton)
         
-        # 暂停与播放键
+        # The button of stop and play(暂停与播放键)
         self.stopButton = QtWidgets.QPushButton(self.verticalLayoutWidget)
         self.stopButton.setObjectName("startButto")
         self.stopButton.setStyleSheet('background-color:slategray;font-size:16px;color:white;')
         self.stopButton.clicked.connect(self.switch_video)
         self.verticalLayout.addWidget(self.stopButton)
 
-        # 连接打开按钮
+        # The button of use current camera(打开当前摄像头按钮)
         self.openButton = QtWidgets.QPushButton(self.verticalLayoutWidget)
         self.openButton.setObjectName("openButton")
         self.openButton.setStyleSheet('background-color:slategray;font-size:16px;color:white;')
@@ -646,7 +646,7 @@ class VideoQt(QWidget):
         self.openButton.clicked.connect(self.open_current_device_video)
         self.verticalLayout.addWidget(self.openButton)
 
-        # 外置按钮
+        # The button of use the other of current camera(打开外置摄像头按钮)
         self.openButton2 = QtWidgets.QPushButton(self.verticalLayoutWidget)
         self.openButton2.setObjectName("openButton")
         self.openButton2.setStyleSheet('background-color:slategray;font-size:16px;color:white;')
@@ -654,21 +654,21 @@ class VideoQt(QWidget):
         self.openButton2.clicked.connect(self.open_other_device_video)
         self.verticalLayout.addWidget(self.openButton2)
 
-        # 打开视频文件
+        # The button of open video to view(打开视频文件按钮)
         self.selectButton2 = QtWidgets.QPushButton(self.verticalLayoutWidget)
         self.selectButton2.setObjectName("selectButton2")
         self.selectButton2.setStyleSheet('background-color:slategray;font-size:16px;color:white;')
         self.selectButton2.clicked.connect(self.open_video_file_to_view)
         self.verticalLayout.addWidget(self.selectButton2)
 
-        # 关闭视频
+        # The button of close camera(关闭摄像头按钮)
         self.closeButton = QtWidgets.QPushButton(self.verticalLayoutWidget)
         self.closeButton.setObjectName("closeButton")
         self.closeButton.setStyleSheet('background-color:slategray;font-size:16px;color:white;')
         self.closeButton.clicked.connect(self.close_video)
         self.verticalLayout.addWidget(self.closeButton)
         
-        # 关闭窗口
+        # The button of close windows(关闭按钮)
         self.quitButton = QtWidgets.QPushButton(self.verticalLayoutWidget)
         self.quitButton.setObjectName("quitButton")
         self.quitButton.setStyleSheet('background-color:slategray;font-size:16px;color:white;')
@@ -677,7 +677,7 @@ class VideoQt(QWidget):
         self.retranslateUi(Form)
         QtCore.QMetaObject.connectSlotsByName(Form)
         
-        #进度条
+        #The filed of progress bar(进度条区域)
         self.progressBar = QProgressBar()
         self.progressBar.setValue(0)
         self.verticalLayout.addWidget(self.progressBar)
@@ -712,7 +712,6 @@ class VideoQt(QWidget):
 
 
 if __name__ == "__main__":
-    # 初始化视屏和页面
     QtCore.QCoreApplication.setAttribute(QtCore.Qt.AA_EnableHighDpiScaling)
     app = QtWidgets.QApplication(sys.argv)
     widget = QtWidgets.QWidget()

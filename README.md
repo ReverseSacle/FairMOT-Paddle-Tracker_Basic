@@ -1,9 +1,9 @@
 # FairMOT_Paddle_Tracker(单摄像头)
-[简体中文](https://github.com/ReverseSacle/FairMOT_paddle/blob/main/README.md) | [English](https://github.com/ReverseSacle/FairMOT_paddle/blob/main/README_en.md)
+[简体中文](https://github.com/ReverseSacle/FairMOT-Paddle-Tracker_Basic/blob/main/README.md) | [English](https://github.com/ReverseSacle/FairMOT-Paddle-Tracker_Basic/blob/main/README_en.md)
 
 效果预览
 ---
-![MOT20-01](https://github.com/ReverseSacle/FairMOT_Paddle/blob/main/docs/MOT20-01.gif)
+![MOT20-01](https://github.com/ReverseSacle/FairMOT-Paddle-Tracker_Basic/blob/main/docs/MOT20-01.gif)
 
 界面预览
 ---
@@ -23,9 +23,9 @@
 
 相关介绍
 ---
-+ [->概要介绍](https://github.com/ReverseSacle/FairMOT_paddle/blob/main/docs/Introduction_cn.md)
-+ [->制作介绍](https://github.com/ReverseSacle/FairMOT_paddle/blob/main/docs/Making_Introduction_cn.md)
-+ [->软件使用指南](https://github.com/ReverseSacle/FairMOT-Paddle-Tracker/blob/main/docs/The_fuction_of_program_cn.md)
++ [->概要介绍](https://github.com/ReverseSacle/FairMOT-Paddle-Tracker_Basic/blob/main/docs/Introduction_cn.md)
++ [->制作介绍](https://github.com/ReverseSacle/FairMOT-Paddle-Tracker_Basic/blob/main/docs/Making_Introduction_cn.md)
++ [->软件使用指南](https://github.com/ReverseSacle/FairMOT-Paddle-Tracker_Basic/blob/main/docs/The_fuction_of_program_cn.md)
 
 
 源代码环境要求

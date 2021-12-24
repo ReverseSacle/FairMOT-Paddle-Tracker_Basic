@@ -60,13 +60,13 @@
 + [->准备数据集](https://github.com/PaddlePaddle/PaddleDetection/blob/release/2.1/configs/mot/README_cn.md)
 + [->开始训练](https://github.com/PaddlePaddle/PaddleDetection/blob/release/2.1/configs/mot/fairmot/README_cn.md)
 
-基础套件：
+基础套件
 ---
 + Pyqt5 --> 界面窗口、按钮组、阈值选择、文件选择和进度条
 + Paddle --> 追踪效果
 + Opencv --> 视频和摄像头追踪，播放与暂停
 
-参与者：
+参与者
 ---
 百度Ai Studio主页
 ---

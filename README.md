@@ -3,8 +3,8 @@
 
 地址导航
 ---
-+ [->Pytorch版地址](https://github.com/ReverseSacle/FairMOT-Pytorch-Tracker_Basic)
-+ [->原作者Github地址](https://github.com/ifzhang/FairMOT)
++ [→Pytorch版地址](https://github.com/ReverseSacle/FairMOT-Pytorch-Tracker_Basic)
++ [→原作者Github地址](https://github.com/ifzhang/FairMOT)
 
 效果预览
 ---
@@ -23,18 +23,18 @@
 
 相关介绍
 ---
-+ [->概要介绍](https://github.com/ReverseSacle/FairMOT-Paddle-Tracker_Basic/blob/main/docs/Introduction_cn.md)
-+ [->制作介绍](https://github.com/ReverseSacle/FairMOT-Paddle-Tracker_Basic/blob/main/docs/Making_Introduction_cn.md)
-+ [->软件使用指南](https://github.com/ReverseSacle/FairMOT-Paddle-Tracker_Basic/blob/main/docs/The_fuction_of_program_cn.md)
++ [→概要介绍](https://github.com/ReverseSacle/FairMOT-Paddle-Tracker_Basic/blob/main/docs/Introduction_cn.md)
++ [→制作介绍](https://github.com/ReverseSacle/FairMOT-Paddle-Tracker_Basic/blob/main/docs/Making_Introduction_cn.md)
++ [→软件使用指南](https://github.com/ReverseSacle/FairMOT-Paddle-Tracker_Basic/blob/main/docs/The_fuction_of_program_cn.md)
 
 
 源代码环境要求
 ---
 + python3
 + OpenCV
-+ 需要的第三方库 -> 基本为paddle_detection所需要的
-+ 运行的测试平台 -> window10
-+ 已经配置好的conda环境(所需要的全部环境的整合) --> **paddle-env下载：**[->OneDrive](https://1drv.ms/u/s!AlYD8lJlPHCIh3I2hTN2AbggBMBZ?e=VoeXM2?download=1)
++ 需要的第三方库 → 基本为paddle_detection所需要的
++ 运行的测试平台 → window10
++ 已经配置好的conda环境(所需要的全部环境的整合) --> **paddle-env下载：**[→OneDrive](https://1drv.ms/u/s!AlYD8lJlPHCIh3I2hTN2AbggBMBZ?e=VoeXM2?download=1)
 
 源代码调试运行
 ---
@@ -45,15 +45,15 @@
 
 提供的模型权重文件
 ---
-+ **下载：** [->OneDrive](https://1drv.ms/u/s!AlYD8lJlPHCIh3EfB5mefhNtDcEO?e=xt2upV?download=1) -> 默认需放置根目录的best_model文件夹下
++ **下载：** [→OneDrive](https://1drv.ms/u/s!AlYD8lJlPHCIh3EfB5mefhNtDcEO?e=xt2upV?download=1) → 默认需放置根目录的best_model文件夹下
 
 
 
 关于训练(基于paddle_detection)
 ---
-+ [->Paddle_Detection 工具](https://github.com/PaddlePaddle/PaddleDetection) -> ```git clone "https://github.com/PaddlePaddle/PaddleDetection.git" ```
-+ [->准备数据集](https://github.com/PaddlePaddle/PaddleDetection/blob/release/2.1/configs/mot/README_cn.md)
-+ [->开始训练](https://github.com/PaddlePaddle/PaddleDetection/blob/release/2.1/configs/mot/fairmot/README_cn.md)
++ [→Paddle_Detection 工具](https://github.com/PaddlePaddle/PaddleDetection) → ```git clone "https://github.com/PaddlePaddle/PaddleDetection.git" ```
++ [→准备数据集](https://github.com/PaddlePaddle/PaddleDetection/blob/release/2.1/configs/mot/README_cn.md)
++ [→开始训练](https://github.com/PaddlePaddle/PaddleDetection/blob/release/2.1/configs/mot/fairmot/README_cn.md)
 
 基础套件
 ---
@@ -65,6 +65,6 @@
 ---
 百度Ai Studio主页
 ---
-+ [->ASDLibb](https://aistudio.baidu.com/aistudio/personalcenter/thirdview/736371)
-+ [->Chen Huilin](https://aistudio.baidu.com/aistudio/personalcenter/thirdview/787763)
++ [→ASDLibb](https://aistudio.baidu.com/aistudio/personalcenter/thirdview/736371)
++ [→Chen Huilin](https://aistudio.baidu.com/aistudio/personalcenter/thirdview/787763)
  

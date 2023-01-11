@@ -4,7 +4,7 @@
 地址导航
 ---
 + [→Pytorch版地址](https://github.com/ReverseSacle/FairMOT-Pytorch-Tracker_Basic)
-+ [→原作者Github地址](https://github.com/ifzhang/FairMOT)
++ [→FairMot作者(Github)](https://github.com/ifzhang/FairMOT)
 
 效果预览
 ---

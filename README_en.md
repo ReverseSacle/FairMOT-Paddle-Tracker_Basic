@@ -4,8 +4,8 @@
 
 Address Navigation
 ---
-+ [→Pytorch_edtion_address](https://github.com/ReverseSacle/FairMOT-Pytorch-Tracker_Basic)
-+ [→Original_author_Github_address](https://github.com/ifzhang/FairMOT)
++ [→Pytorch edtion address](https://github.com/ReverseSacle/FairMOT-Pytorch-Tracker_Basic)
++ [→FairMot author(Github)](https://github.com/ifzhang/FairMOT)
 
 Preview
 ---
